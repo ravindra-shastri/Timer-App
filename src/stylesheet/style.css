@@ -1,0 +1,145 @@
+body{
+  background-color:rgb(59, 58, 58);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+h1, h2{
+  text-align: center;
+  color: rgb(211, 211, 211);
+}
+h1{
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+h3{
+  color:rgb(207, 205, 205);
+  font-size:4rem;
+  font-weight:800;
+  text-align: center;
+}
+.main-btn{
+  display:flex;
+  justify-content: center;
+}
+.btn-main{
+  padding: 1.4rem;
+  margin: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color:rgb(206, 206, 206);
+  border-radius: .5rem;
+  background-color: rgb(58, 76, 87);
+  border:none;
+
+}
+.content-container{
+  width: 24rem;
+  height: 25rem;
+  border:2px solid rgb(190, 190, 190);
+  background-color: rgb(56, 56, 56);
+  font-size: 1.5rem;
+  font-weight:600;
+  padding:  0 2rem;
+  margin: 1rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+p{
+  margin: .5rem;
+  text-align: center;
+  color: rgb(202, 202, 202);
+  font-size:2rem;
+}
+
+.btn{
+  width:14rem;
+  height: 4rem;
+  margin: 1rem;
+  background-color:rgb(54, 68, 78);
+  font-size:1rem;
+  font-weight:600;
+  color: white;
+  border-radius:.5rem;
+}
+.btn:hover{
+  background-color:rgb(49,137,209);
+}
+.timer-container {
+  display: flex;
+}
+.timer-font{
+  color:rgb(199, 195, 195);
+  margin: .2rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.arrow{
+  background-color: rgb(58, 76, 87);
+  color: rgb(202, 202, 202);
+  margin: 0 3rem;
+  font-size:1rem;
+  font-weight:800;
+  padding: .3rem;
+  border:none;
+}
+.count-name {
+  display: flex;
+  justify-content:center;
+}
+.count-name span{
+  margin: .6rem .4rem;
+  color: rgb(189, 185, 185);
+}
+.count-font{
+  display: flex;
+  justify-content:center;
+}
+.count-font span{
+  margin: 1rem 1.2rem ;
+  color: rgb(184, 182, 182);
+  font-size:1.7rem;
+}
+.up-arrow {
+  text-align: center;
+}
+.down-arrow {
+  text-align: center;
+} 
+.start-btn {
+  text-align: center;
+}
+.btn-start {
+  background-color: rgb(58, 76, 87);
+  color: rgb(231, 231, 231);
+  border:none;
+  padding: 8px 38px;
+  margin: 1rem;
+  font-weight: 800;
+  border-radius: .2rem;
+}
+.time-font{
+  margin-left: 2rem;
+}
+.hide-btn {
+  float: right;
+  margin-right: -1.9rem;
+  background-color: rgb(58, 76, 87);
+  color: rgb(219, 219, 219);
+  font-weight:600;
+  border:none;
+  border-radius:.2rem;
+  padding: .3rem;
+}
+.hide{
+  margin-right: -2rem;
+}
+
+.reset-btn {
+  display:flex;
+  justify-content: center;
+}
+
