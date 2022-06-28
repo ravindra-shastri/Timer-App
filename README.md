@@ -1,6 +1,6 @@
 <h1> Timer App</h1>
 
-<!-- ## [Live Demo]() -->
+## [Live Demo](https://timer-app-rho.vercel.app/)
 
 This is a Timer app.
 
